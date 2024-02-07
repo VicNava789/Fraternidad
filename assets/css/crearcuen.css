@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilos del formulario */
+.signup-form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.signup-form h1 {
+    margin-bottom: 20px;
+    color: #0088ff;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0088ff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #0055aa;
+}
+
+.login-link {
+    margin-top: 15px;
+}
+
+.login-link a {
+    color: #0088ff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el mensaje de error */
+.error {
+    color: red;
+    display: none;
+    margin-top: 5px;
+}
